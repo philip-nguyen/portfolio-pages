@@ -1,0 +1,27 @@
+body {
+  background: rgb(3,75,209);
+  background: linear-gradient(45deg, rgba(3,75,209,0.8113620448179272) 6%, rgba(205,214,217,0.7805497198879552) 43%, rgba(8,193,244,0.46122198879551823) 100%);
+}
+
+#intro {
+  margin-bottom: 10px;
+}
+
+#job-title {
+  margin-bottom: 0px;
+}
+
+#name {
+  font-size: 80px;
+  margin-top: 0px;
+}
+
+#profile-pic {
+  width: 200px;
+  height: 180px;
+  object-fit: cover;
+}
+
+#resume {
+  justify-content: right;
+}
