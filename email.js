@@ -5,7 +5,7 @@ var modal = document.getElementById("email-modal");
 var contactBtn = document.getElementById("contact-button");
 
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+var span = document.getElementsByClassName("close icon")[0];
 
 // When the user clicks on the button, open the modal
 contactBtn.onclick = function() {
@@ -15,6 +15,7 @@ contactBtn.onclick = function() {
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
   modal.style.display = "none";
+  console.log(span);
 }
 
 // When the user clicks anywhere outside of the modal, close it
