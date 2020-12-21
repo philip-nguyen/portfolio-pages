@@ -1,6 +1,6 @@
 body {
   background: rgb(3,75,209);
-  background: linear-gradient(45deg, rgba(3,75,209,0.8113620448179272) 6%, rgba(205,214,217,0.7805497198879552) 43%, rgba(8,193,244,0.46122198879551823) 100%);
+  background: linear-gradient(45deg, rgba(3,75,209,0.6965161064425771) 0%, rgba(205,214,217,0.9934348739495799) 47%, rgba(8,193,244,0.458420868347339) 100%);
   background-attachment: fixed;
 }
 
@@ -28,7 +28,7 @@ body {
 }
 
 .info-node {
-  margin-bottom: 20px;
+  margin-bottom: 50px !important;
 }
 
 .modal {
