@@ -5,17 +5,28 @@ hr {
 
 .header {
     text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    position: relative;
+}
+
+.profile-pic {
+    float: right;
+    margin-right: 10px;
 }
 
 .intro {
     background-color: azure;
     padding: 50px;
     
-    margin: auto;
 }
 
 .background {
-    max-width: 60%;
+    position: relative;
+    text-align: center;
+    
+    margin-right: 20%;
 }
 
 .pic1 {
